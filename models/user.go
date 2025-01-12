@@ -1,4 +1,4 @@
-// models/user.go
+// The models.go file defines the User struct, which represents a user in the database with fields for Name, Email, and Password, along with GORM tags for specifying constraints like uniqueness and non-null values.
 
 package models
 

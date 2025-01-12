@@ -1,3 +1,5 @@
+// The handlers.go file defines two main functions for user registration and login
+
 package handlers
 
 import (

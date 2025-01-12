@@ -1,34 +1,4 @@
-// package main
-
-// import (
-// 	"go-fiber-app/database"
-// 	"go-fiber-app/routes"
-// 	"log"
-
-// 	"github.com/gofiber/fiber/v2"
-// 	"github.com/joho/godotenv"
-// )
-
-// func main() {
-// 	// Load environment variables
-// 	if err := godotenv.Load(); err != nil {
-// 		log.Fatal("Error loading .env file")
-// 	}
-
-// 	// Connect to database
-// 	database.ConnectDB()
-
-// 	// Initialize Fiber app
-// 	app := fiber.New()
-
-// 	// Set up routes
-// 	routes.SetupRoutes(app)
-
-// 	// Start server
-// 	log.Fatal(app.Listen(":3000"))
-// }
-
-// main.go
+// The main.go file initializes a Fiber web application, loads environment variables, connects to a MySQL database, defines routes for user registration and login, and starts the server on port 3000.
 
 package main
 

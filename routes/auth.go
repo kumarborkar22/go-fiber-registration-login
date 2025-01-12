@@ -1,4 +1,4 @@
-// routes/auth.go
+// The routes.go file defines two main routes for user registration and login
 
 package routes
 

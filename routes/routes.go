@@ -1,3 +1,5 @@
+// The routes.go file defines the SetupRoutes function, which sets up two POST routes for user registration and login
+
 package routes
 
 import (

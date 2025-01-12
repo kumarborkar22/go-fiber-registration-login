@@ -1,3 +1,5 @@
+// The database.go file establishes a connection to a MySQL database using GORM, loads database credentials from environment variables, logs a success message upon successful connection, and performs automatic migration for the User model.
+
 package database
 
 import (
@@ -30,6 +32,5 @@ func ConnectDB() {
 
 	log.Println("Database connected!")
 
-	// Auto-migrate User model
 	DB.AutoMigrate(&models.User{})
 }
